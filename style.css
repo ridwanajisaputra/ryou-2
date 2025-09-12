@@ -6,44 +6,18 @@
 .text-white { color: #ffffff;}
 .text-black { color: black;}
 .text-green { color: #D5FF40;}
-
-
 .h1{font-size: 218px;}
 .h2{font-size: 70px;}
 .h3{font-size: 42px;}
 .h4{font-size: 32px;}
 .h5{ font-size: 18px;}
-.p {font-size: 18px;}
-.span {font-size: 16px;}
+.p {font-size: 16px;}
+.span {font-size: 14px;}
+.font-large { font-size: 24px;}
+.font-small {font-size: 16px;}
+.font-ex-small{ font-size: 14px;}
 
-
-#features .container .left-content .content span {
-    font-size: 32px;
-}
-#features .container .left-content .content p{
-    font-size: 16px;
-}
-#features .container .left-content .content-group span {
-    font-size: 18px;
-}
-#reward .left-content p {
-    font-size: 24px;
-}
-#reward .left-content .badge {
-    font-size: 14px;
-}
-#blog .container .card-content p {
-    font-size: 24px;
-}
-#blog .container .card-content span {
-    font-size: 14px;
-}
-footer .container .headline p {
-    font-size: 16px;
-}
-footer .headline ul li a {
-    font-size: 18px;
-}
-footer .container .content .right-block p {
-    font-size: 14px;
+.header .container .content {
+    width: 1440px;
+    height: 90px;
 }
