@@ -1,164 +1,49 @@
-#header {
-    background-color: black; 
-}
-#header button {
-    color: white;
-    background-color: black;
-}
-#header h1 {
-    font-size: 218px;
-    color: white;
-}
-#header h1 span {
-    color: #D5FF40;
-}
-#header .container .content-left {
-    color: white;
-    font-size: 24px;
-}
-#header .container .content-center {
-    background-color: #58009E;
-}
-#header .container .color-white {
-    color: white;
-    font-size: 38px;
-}
-#header .container .content-right {
-    background-color: white;
-    color: black;
-}
-#header .container .content-right .color-black {
-    color: black;
-    font-size: 32px;
-}
-#header .container .content-right p {
-    color: black;
-    font-size: 14px;
-}
-#logo .container {
-    background-color: white;
-}
-#features {
-    background-color: black;
-}
-#features .container .top-content span {
-    font-size: 16px;
-    color: #D5FF40;
-}
-#features .container h3 {
-    color: white;
-    font-size: 42px;
-}
-#features .container .top-content p {
-    font-size: 18px;
-    color: white;
-}
-#features .container .top-content button {
-    background-color: #B0B6C0;
-    color: #ffffff;
-}
+.bg-black { background-color: black;}
+.bg-white { background-color: #ffffff;}
+.bg-purple { background-color: #58009E;}
+.bg-grey { background-color: #B0B6C0;}
+.bg-green { color: #D5FF40;}
+.text-white { color: #ffffff;}
+.text-black { color: black;}
+.text-green { color: #D5FF40;}
+
+
+.h1{font-size: 218px;}
+.h2{font-size: 70px;}
+.h3{font-size: 42px;}
+.h4{font-size: 32px;}
+.h5{ font-size: 18px;}
+.p {font-size: 18px;}
+.span {font-size: 16px;}
+
+
 #features .container .left-content .content span {
-    color: #D5FF40;
     font-size: 32px;
 }
 #features .container .left-content .content p{
     font-size: 16px;
-    color: #ffffff;
-}
-#features .container .left-content .content-group  p {
-    font-size: 18px;
-    color: #ffffff;
 }
 #features .container .left-content .content-group span {
-    color: #D5FF40;
     font-size: 18px;
-}
-#benefits .container span {
-    font-size: 16px;
-    color: #58009E;
-}
-#benefits .container h3 {
-    color: black;
-    font-size: 42px;
-}
-#benefits .container p {
-    font-size: 18px;
-}
-#benefits .container .card-group h4 {
-    font-size: 32px;
-    color: white;
-}
-#benefits .container .card-group .left-card {
-    background-color: black;
-}
-#benefits .container .card-group .right-card {
-    background-color: black;
-}
-#reward {
-    background-color: black;
-    color: white;
-}
-#reward h3 {
-    font-size: 42px;
-    color: #ffffff;
-}
-#reward p {
-    font-size: 18px;
-    color: white;
 }
 #reward .left-content p {
     font-size: 24px;
-    color: #ffffff;
 }
 #reward .left-content .badge {
     font-size: 14px;
-    color: white;
-}
-#reward .left-content span {
-    color: black;
-    background-color: #D5FF40;
-}
-#blog {
-    background-color: #ffffff;
-}
-#blog .container h5{
-    font-size: 18px;
-}
-#blog .container p {
-    font-size: 18px;
-    color: #58009E;
 }
 #blog .container .card-content p {
     font-size: 24px;
-    color: black;
 }
 #blog .container .card-content span {
     font-size: 14px;
-    color: black;
-}
-footer {
-    background-color: black;
-}
-footer .container .headline h2 {
-    font-size: 70px;
-    color: #ffffff;
 }
 footer .container .headline p {
     font-size: 16px;
-    color: #ffffff;
 }
-footer .container .content .left-block ul li a {
-    color: white;
+footer .headline ul li a {
     font-size: 18px;
-}
-footer .container .content .right-block {
-    font-size: 18px;
-    color: #ffffff;
-}
-footer .container .content .right-block ul li a {
-    color: #ffffff;
 }
 footer .container .content .right-block p {
-    color: white;
     font-size: 14px;
 }
