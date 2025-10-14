@@ -9,43 +9,45 @@
 <body>
     <header class="header">
         <!--Navbar-->
-        <div class="container bg-black">
-            <nav>
-                <div class="content">
-                    <button type="button">Menu</button>
-                    <a href="#"><img src="asset/images/logo.png" alt="logo"></a>
-                    <div>
+        <div class="container">
+            <div class="bg-black">
+                <nav class="navbar">
+                    <div class="content">
+                        <button type="button">Menu</button>
+                        <a href="#"><img src="asset/images/logo.png" alt="logo"></a>
                         <div>
-                            <input type="radio" id="dark" name="mode" value="dark">
-                            <label for="dark">Dark</label>
-                            <input type="radio" id="white" name="mode" value="white">
-                            <label for="white">White</label>
+                            <div>
+                                <input type="radio" id="dark" name="mode" value="dark">
+                                <label for="dark">Dark</label>
+                                <input type="radio" id="white" name="mode" value="white">
+                                <label for="white">White</label>
+                            </div>
+                            <button class="bg-black text-white" type="button">Log In</button>
                         </div>
-                        <button class="bg-black text-white" type="button">Log In</button>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
             <!--section header-->
-            <div>
-                <h1 class="text-white">FINANCIAL <span class="text-green">FREEDOOM</span></h1>
+            <div class="hero">
+                <h1 class="title text-white">FINANCIAL <span class="text-green">FREEDOOM</span></h1>
                 <div class="content-left">
-                    <div>
+                    <div class="">
                         <p class="text-white">Check in our new collection for sport & activity</p>
                         <img src="asset/images/ic-play.png" alt="play">
                     </div>
                     <img src="asset/images/achivement.png" alt="Achievement">
                 </div>
-                <div>
-                    <div  class="text-white bg-purple">
+                <div class="content-right">
+                    <div  class=" card-purple text-white bg-purple">
                         <span>OVERCOME RECESSION</span>
                         <img src="asset/images/carlos.png" alt="Overcome-Recession">
                     </div>
                     <div>
-                        <div class="color-black bg-white">
+                        <div class="card-greencolor-black bg-white">
                             <span>FINANCIAL FREEDOOM</span>
                             <p>Ryuo is a financial platform that focuses on the millennial generation, with a variety of features you can experience the many benefits that we provide, Ryuo has also been supervised by the financial.                 
                             </p>
-                        </div>
+                         </div>
                         <img src="asset/images/emblem.png" alt="financial-freedom">
                     </div>
                 </div>
@@ -54,7 +56,7 @@
     </header>
     <main>
         <!--section logo 1-->
-        <section id="logo">
+        <section class="logo">
             <div class="container bg-white">
                 <ul>
                     <li><a href="#"><img src="asset/images/amazon.png" alt="amazon"></a></li>
@@ -66,19 +68,19 @@
             </div>
         </section>
         <!--feature-->
-        <section id="features">
+        <section class="features">
             <div class="container bg-black">
                 <div class="top-content">
-                    <div>
+                    <div class="content">
                         <div>
                             <span class="text-green">SUPERIOR FEATURES</span>
-                            <div>
-                                <h3 class="text-white">THE CURRENT FEATURE <img src="asset/images/game.png" alt="icon-game">YOU NEED</h3>
+                            <div class="features-heading">
+                                <h3 class="text-white">THE CURRENT <br> FEATURE <img src="asset/images/game.png" alt="icon-game">YOU NEED</h3>
                             </div>
                             <p class="text-white">Ryuo is a financial platform that focuses on the millennial generation, with a variety of features you can experience the many benefits that we provide, Ryuo has also been supervised by the financial services authority
                             </p>
                         </div>
-                        <div class="bg-grey text-white">
+                        <div class="button-group text-white">
                             <button type="button">Investment</button>
                             <button type="button">Preparation</button>
                             <button type="button">Payment</button>
@@ -111,9 +113,9 @@
             </div>
         </section>
         <!--section benefits-->
-        <section id="benefits">
+        <section class="benefits">
             <div class="container">
-                <div>
+                <div class="benefits-heading">
                     <span class="text-purple">WHAT YOU CAN BENEFIT</span>
                     <div>
                         <h3 class="text-black">GOOD LUCK BECOME ONE THE BEST MANEUVERS IN YOU</h3>
@@ -134,13 +136,13 @@
             </div>
         </section>
         <!--section reward-->
-        <section id="reward">
-            <div class="container bg-black text-white">
-                <div>
+        <section class="reward bg-black text-white">
+            <div class="container">
+                <div class="button-content">
                     <h3>EARN STAKING REWARD</h3>
                     <p>Learn more about token</p>
                 </div>
-                <div class="left-content">
+                <div class="top-content">
                     <p class="font-large">Our top scale upgrade for finding hidden treasures, with a clean ecosystem (RNE). Join our betting ecosystem.
                     </p>
                     <div>
@@ -156,14 +158,14 @@
             </div>
         </section>
         <!--section blog-->
-        <section id="blog">
-            <div class="container bg-white">
+        <section class="blog bg-white">
+            <div class="container">
                 <div class="blog-nav">
                     <h5>RECENT BLOGS</h5>
                     <p class="text-purple h5">View all at Medium</p>
                 </div>
-                <div class="card-content text-black">
-                    <div>
+                <div class="card-blog text-black">
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -172,7 +174,7 @@
                             <span class="font-ex-small">Published on January 4, 2022</span>
                         </article>
                     </div>
-                    <div>
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -181,7 +183,7 @@
                             <span class="font-ex-small">Published on January 1, 2022</span>
                         </article>
                     </div>
-                    <div>
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -190,7 +192,7 @@
                             <span class="font-ex-small">Published on January 7, 2022</span>
                         </article>
                     </div>
-                    <div>
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -199,7 +201,7 @@
                             <span class="font-ex-small">Published on January 4, 2022</span>
                         </article>
                     </div>
-                    <div>
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -208,7 +210,7 @@
                             <span class="font-ex-small">Published on January 7, 2022</span>
                         </article>
                     </div>
-                    <div>
+                    <div class="card-article">
                         <article>
                             <div>
                                 <img src="asset/images/xicon.png" alt="xicon">
@@ -223,60 +225,62 @@
     </main>
     <footer>
         <div class="container bg-black text-white">
-            <div class="headline">
-                <div>
+            <div class="footer-heading">
+                <div class="content">
                     <h2>JOIN THE COMMUNITY</h2>
                     <a href="#" class="h5"><img src="asset/images/ryoulogo.png" alt="logo-ryou"></a>
                 </div>
                 <p>Ryuo is a financial platform that focuses on the millennial generation, with a variety of features you can experience the many benefits.</p>
             </div>
             <div class="content">
-                <div class="left-block">
+                <div class="left-content">
                     <ul>
                         <li>
-                            <a href="#" class="text-white"><img src="asset/images/gmail.png" alt="gmail">Email<img src="asset/images/@.png" alt="@">hello@ryou.com
+                            <a href="#" class="text-white">
+                                <img class="icon-left" src="asset/images/gmail.png" alt="gmail">Email
+                                <img class="icon-center" src="asset/images/@.png" alt="@">hello@ryou.com
                             </a>
                         </li>
                         <li>
                             <a href="#" class="text-white">
-                                <img src="asset/images/twitter.png" alt="twitter">
+                                <img class="icon-left" src="asset/images/twitter.png" alt="twitter">
                                 Twitter
-                                <img src="asset/images/arrow-right.png" alt="arrow">
+                                <img class="icon-center" src="asset/images/arrow-right.png" alt="arrow">
                                 @ryou_com
                             </a>
                         </li>
                         <li>
                             <a href="#" class="text-white">
-                                <img src="asset/images/medium.png" alt="medium">
+                                <img class="icon-left" src="asset/images/medium.png" alt="medium">
                                 Medium
-                                <img src="asset/images/arrow-right.png" alt="arrow">
+                                <img class="icon-center" src="asset/images/arrow-right.png" alt="arrow">
                                 ryou-com
                             </a>
                         </li>
                         <li>
                             <a href="#" class="text-white">
-                                <img src="asset/images/telegram.png" alt="telegram">
+                                <img class="icon-left" src="asset/images/telegram.png" alt="telegram">
                                 Telegram
-                                <img src="asset/images/arrow-right.png" alt="arrow">
+                                <img class="icon-center" src="asset/images/arrow-right.png" alt="arrow">
                                 @ryou_com
                             </a>
                         </li>
                         <li>
                             <a href="#" class="text-white">
-                                <img src="asset/images/linkedin.png" alt="linkedin">
+                                <img class="icon-left" src="asset/images/linkedin.png" alt="linkedin">
                                 Linkedin
-                                <img src="asset/images/arrow-right.png" alt="arrow">
+                                <img class="icon-center" src="asset/images/arrow-right.png" alt="arrow">
                                 @ryou-finance
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="right-block">
+                <div class="right-content">
                     <h5>Ryou Sleman 9716 Yogyakarta, Indonesia</h5>
                     <div>
-                        <ul>
-                            <li><a href="#" class="text-white">FAQ <img src="asset/images/arrow-right.png" alt="arrow"></a></li>
-                            <li><a href="#" class="text-white">Legal <img src="asset/images/arrow-right.png"></a></li>
+                        <ul class="menu">
+                            <li class="menu-top"><a href="#" class="text-white">FAQ <img src="asset/images/arrow-right.png" alt="arrow"></a></li>
+                            <li class="menu-button"><a href="#" class="text-white">Legal <img src="asset/images/arrow-right.png"></a></li>
                         </ul>
                     </div>
                     <p class="font-ex-small">Copyright © Ryou ID Authorised by the Ariq FSA under registration number 25900</p>

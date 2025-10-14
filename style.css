@@ -16,8 +16,136 @@
 .font-large { font-size: 24px;}
 .font-small {font-size: 16px;}
 .font-ex-small{ font-size: 14px;}
-
-.header .container .content {
-    width: 1440px;
-    height: 90px;
+.container { 
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    padding: 116px 100px 96px 100px;
+}
+.header .hero{
+    padding: 0 100px 0 100px;
+}
+.header .hero .title{
+    margin-bottom: 8px;
+}
+.header .hero .content-left{
+    margin: 0 170px 0 0;
+}
+.header .hero .content-left p{
+    margin: 0 0 116px 0
+}
+.header .hero .content-left img{
+    margin: 0 0 0 48px;
+}
+.header .hero .content-center{
+    margin: 0 170px 0 0;
+}
+.header .hero .content-right .card-purple{
+    margin: 0 40px 0 0;
+}
+.header .hero .content-right .card-green span{
+    margin: 0 0 24px 0;
+}
+.logo {
+    padding: 40px 0 40px 0;
+}
+.logo ul li {
+    margin: 0 auto 0 0
+}
+.features .top-content .content{
+    margin: 0 21px;
+}
+.features .top-content .content span{
+    margin: 0 0 16px 0;
+}
+.features .top-content .content img{
+    margin: 0 12px 0 12px;
+}.features .top-content .content .features-heading{
+    margin: 0 0 24px 0;
+}
+.features .top-content .content .button-group {
+    margin-top: 48px;
+    margin: 0 12px 0 0;
+}
+.features .left-content .content{
+    padding: 32px;
+}
+.features .left-content .content p{
+    margin: 0 0 28px 0;
+}
+.benefits {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.benefits .benefits-heading{
+    margin: 0 0 70px 0;
+}
+.benefits .benefits-heading span{
+    margin: 0 0 16px 0;
+}
+.benefits .benefits-heading h3{
+    margin: 0 0 18px 0;
+}
+.benefits .card-group .left-card{
+    margin: 0 40px 0 0;
+}
+.benefits .card-group .left-card img{
+    margin: 0 0 24px 0;
+}
+.benefits .card-group .right-card img{
+    margin: 0 0 24px 0;
+}
+.reward {
+    padding: 100px 0 100px 0;
+}
+.reward .top-content {
+    margin: 0 0 54px 0;
+}
+.reward .top-content p{
+    margin:0 0 286px 0;
+}
+.blog{
+    padding: 150px 100px 150px 100px;
+}
+.blog .blog-nav {
+    margin: 0 0 60px 0;
+}
+.blog .card-blog .card-article p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+footer {
+    padding: 120px 100px 120px 100px;
+}
+footer .footer-heading {
+    margin: 0 0 60px 0;
+}
+footer .footer-heading .content {
+    margin: 0 0 80px 0;
+}
+footer .footer-heading .content h2 {
+    margin: 0 348px 0 0;
+}
+footer .content .left-content {
+    margin: 0 347px 0 0;
+}
+footer .content .left-content ul li {
+    margin: 0 0 22px 0;
+}
+footer .content .left-content ul li a .icon-left {
+    margin: 0 20px 0 0;
+}
+footer .content .left-content ul li a .icon-center {
+    margin-left: 113px;
+    margin-right: 113px;
+}
+footer .content .right-content h5 {
+    margin: 0 0 24px 0;
+}
+footer .content .right-content ul li{
+    margin: 0 0 24px 0;
+}
+footer .content .right-content .menu .menu-item {
+    margin: 0 0 16 0;
 }
